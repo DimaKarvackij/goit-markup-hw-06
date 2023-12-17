@@ -478,9 +478,6 @@ gap:48px;
     transform: translateY(100%);
     background-color: #4D5AE5;
     transition: transform 250ms linear;
-}
-
-.overflow {
     color: #f4f4fd;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px 32px;
@@ -519,20 +516,10 @@ gap:48px;
 
 .studio-footer {
     color: #f4f4fd;
-
-   
-   
-   
-   
-   
-   
 }
 
 .end {
     max-width: 264px;
-}
-
-.end {
     color: #F4F4FD;
     /* Body */
     font-family: 'Roboto', sans-serif;
@@ -671,33 +658,6 @@ text-align: center;
     gap: 24px;
     flex-direction: column;
 }
-
-
-/*
-.footer-container{
-    flex-direction: column;
-    
-}
-.end{
-    width: 288px;
-}
-.a-footer{
-    display: flex;
-    justify-content: center;
-    
-}
-.logo-footer{
-    margin-bottom: 72px;
-}
-.form-label-telegram-user{
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.telegram-user-email{
-    width:288px;
-}
-*/
-/*===============Сам робив =============*/
 
 /*==============///FOOTER///================*/
 
@@ -1122,8 +1082,8 @@ font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
 
 }
 .mobile-menu-adres-li{
