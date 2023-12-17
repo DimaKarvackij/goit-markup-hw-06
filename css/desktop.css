@@ -1,0 +1,79 @@
+@media screen and (min-width:1158px) {
+    .container {
+        width: 1158px;
+       padding: 0 15px;
+    }
+    .section {
+        padding: 120px 0;
+    }
+    .idrt{
+        margin-right:76px;
+    }
+    .menu-conct{
+        flex-direction: row;
+        gap:40px;
+    }
+    .contacts {
+ 
+        font-size: 16px;
+        line-height: 1.5;
+
+    }
+    .section-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url('../images/picture/people-office_2.jpg');
+        padding: 188px 0;
+       
+       
+    
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+        screen and (min-resolution: 192dpi) and (min-width: 1158px),
+        screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+        .section-page{
+            background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/picture/hero-desk-2x.jpg);
+        }
+    }
+    .all-rofession{
+        width:calc((100% - 72px) / 4);
+    } 
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.composition{
+    font-weight: 400;
+}
+.dima{
+    gap: 48px 24px;
+}
+.painting {
+    width:calc((100% - 48px)/3);
+}
+
+    .p-footer{
+        padding: 100px 0;
+    }
+    .footer-container{
+        gap:unset;
+    }
+    .logo-footer{
+        margin-right: 120px;
+    }
+    .footer-telegram{
+        margin-left: auto;
+    }
+
+}

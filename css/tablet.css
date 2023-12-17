@@ -1,0 +1,107 @@
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+    .menu {
+        display: flex;
+        position: relative;
+        color: #404bbf;
+        color: #2e2f42;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+    }
+    .idrt{
+        margin-right: 120px;
+    }
+    .menu-conct{
+        display: flex;
+        flex-direction: column;
+        gap:12px;
+    }
+    .contacts {
+        color: #434455;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .menu-open-btn{
+        display: none;
+    }
+    .conct{
+        display: block;
+    }
+    .section-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url('../images/picture/hero-bg-tab-1x.jpg');
+        padding: 112px 0;
+       
+       
+    
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+        .section-page{
+            background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/picture/hero-bg-tab-2x.jpg);
+        }
+    }
+    .type{
+        font-size: 56px;
+        margin-bottom: 36px;
+        line-height: 1.07;
+        max-width:496px;
+    }
+.profession{
+flex-direction: row;
+gap: 72px 24px;
+flex-wrap: wrap;
+}
+.all-rofession{
+    width:calc((100% - 24px) / 2);
+}
+.title{
+    text-align: left;
+}
+
+.picture{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+}
+.dima{
+    gap: 72px 24px;
+}
+.painting {
+    width:calc((100% - 24px)/2);
+}
+    .footer-container {
+        gap: 72px 24px;
+        padding-left: 108px;
+        justify-content: flex-start;
+    }
+    .a-footer{
+        text-align: left;
+    }
+    .mig-footer{
+        text-align: left;
+    }
+    .subscribe-footer{
+        text-align: left;
+    }
+    .form-label-telegram-user{
+        flex-direction: row;
+    }
+    .modele{
+        padding: 72px 24px 24px;
+        width: 408px;
+    }
+}
