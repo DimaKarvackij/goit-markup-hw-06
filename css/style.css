@@ -1054,6 +1054,10 @@ padding-left:16px;
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
+transition: opacity 250ms cubic-beier(0.4, 0, 0.2, 1),
+visibility 250ms cubic-beier (0.4, 0, 0.2, 1);
+overflow-y: auto;
+flex-direction: column;
 
 }
 .mobile-menu-contact.is-open{
@@ -1085,14 +1089,14 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 
 }
+.mobile-box{
+    margin-top: auto;
+}
 .mobile-menu-adres{
     margin-bottom: 48px;
     font-style: normal;
 }
 
-.navigation-mobile{
-    margin-bottom: 100px;
-}
 .mobile-menu-adres-email-link{
     color:  #4D5AE5;
  
