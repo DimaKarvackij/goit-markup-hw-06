@@ -551,7 +551,7 @@ gap:48px;
 
 .svg-footer {
     display: flex;
-    gap: 16px;
+    gap: 40px;
 
 }
 
@@ -613,6 +613,11 @@ text-align: center;
     letter-spacing: 0.04em;
     border-radius: 4px;
     background: #4D5AE5;
+    display: flex;
+    min-width: 165px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    border: none;
 }
 
 .form-telegram-email {
@@ -629,14 +634,6 @@ text-align: center;
     border-radius: 4px;
     color: #ffffff;
     padding-right: 24px;
-}
-
-.form-telegram-email::placeholder {}
-
-.button-telegram {
-    display: flex;
-    min-width: 165px;
-    margin: 0 auto;
 }
 
 .input-telegram {
@@ -784,18 +781,6 @@ text-align: center;
 }
 
 .rewu-form-label-field {
-
-    color: var(--LIGHT-SLATE, #8E8F99);
-
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    /* 116.667% */
-    letter-spacing: 0.04em;
-}
-
-.rewu-form-label-field {
     display: block;
     color: var(--LIGHT-SLATE, #8E8F99);
     font-family: Roboto;
@@ -809,6 +794,7 @@ text-align: center;
 
 .rewu-form-input-wrapper {
     position: relative;
+    margin-bottom: 16px;
 }
 
 .rewu-form-input-icon {
@@ -845,6 +831,7 @@ text-align: center;
     resize: none;
     outline: 0px solid transparent;
     transition: border-color 250ms linear;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -856,15 +843,9 @@ text-align: center;
     border-color: #4D5AE5;
 }
 
-.rewu-form-commant {
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .rewu-form-chexbox-wrapper {
     margin-bottom: 24px
 }
-
-.checkbox-form {}
 
 .checkbox-form {
     border-radius: 2px;
@@ -958,7 +939,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .rewu-form-input-wrapper {
-    margin-bottom: 16px;
+    
 }
 
 .bacgdrop-modele-svg:hover,
@@ -980,12 +961,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-bottom: 8px;
 }
 
-.button-telegram {
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
-    border: none;
-}
-
 .svg-telegram {
     margin-left: 16px;
 }
@@ -1005,8 +980,8 @@ position: fixed;
 display:flex;
 top:0;
 left:0;
-width:100vw;
-height:100vw;
+width:100%;
+height:100%;
 z-index: 9999999999;
 background: #FFF;
 padding:72px;
@@ -1023,7 +998,7 @@ flex-direction: column;
 .mobile-menu-contact.is-open{
     opacity: 1;
     visibility: visible;
-    justify-content:center ;
+    pointer-events: all;
 }
 .button-mobile-menu-contact{
     position:absolute;
@@ -1050,7 +1025,7 @@ text-transform: capitalize;
 
 }
 .mobile-box{
-    margin-top: auto;
+    margin-bottom: auto 0;
 }
 .mobile-menu-adres{
     margin-bottom: 48px;
