@@ -1083,6 +1083,7 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.02em;
 text-transform: capitalize;
+
 }
 .mobile-menu-adres{
     margin-bottom: 48px;
@@ -1090,7 +1091,7 @@ text-transform: capitalize;
 }
 
 .navigation-mobile{
-    margin-bottom: 168px;
+    margin-bottom: 100px;
 }
 .mobile-menu-adres-email-link{
     color:  #4D5AE5;
@@ -1123,4 +1124,7 @@ letter-spacing: 0.4px;
 }
 .mobile-menu-adres-li{
 margin-bottom: 24px;
+}
+.mobile-menu-li{
+    margin-bottom: 40px;
 }
