@@ -67,6 +67,7 @@
         padding: 100px 0;
     }
     .footer-container{
+
         gap:unset;
     }
     .logo-footer{
@@ -75,5 +76,13 @@
     .footer-telegram{
         margin-left: auto;
     }
-
+.footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 72px ;
+    
+}
+.svg-footer{
+    gap: 24px;
+}
 }
